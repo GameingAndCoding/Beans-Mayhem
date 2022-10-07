@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8254830753200873644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8360643720980185713}
+  - component: {fileID: -5936719304249907466}
+  m_Layer: 0
+  m_Name: Golden Pistol 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8360643720980185713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8254830753200873644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5112400204032587061}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5936719304249907466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8254830753200873644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23205b56eafe47747bedf0b488e1048b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponData: {fileID: 11400000, guid: 3744aa82cfc8b5548a588dbc057c7061, type: 2}
+  ShootpointName: shootpoint4
+  PlayerNumber: bean4
+  LaunchPoint: {fileID: 0}
+  projectile: {fileID: 7030908096661528498, guid: 345ae52ea544fcd4f9d1ea50a11ab46d, type: 3}
+  WeaponID: 3
+  SavedAmmo: {fileID: 0}
+  filler: {fileID: 3341891670621260096, guid: 6fd039e606cdf244b83f48bf68aa501e, type: 3}
+  VelocityModifier: 0
+--- !u!1001 &9084302001332845289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8360643720980185713}
+    m_Modifications:
+    - target: {fileID: 295543768585974037, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186385645790720627, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345786005406026014, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640063361380727764, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099129345840205788, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099129345840205788, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099129345840205788, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099129345840205788, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099129345840205788, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099129345840205788, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099129345840205788, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099129345840205788, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099129345840205788, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099129345840205788, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099129345840205788, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4482623040382264137, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4533220962577281830, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_Name
+      value: golden pistol
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236046739312523019, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5499792434103678195, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_PolyMesh.m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5499792434103678195, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+      propertyPath: m_OriginalMeshObject
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+--- !u!4 &5112400204032587061 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4099129345840205788, guid: ac437b5de0425a34ab78d279a31d0ac9, type: 3}
+  m_PrefabInstance: {fileID: 9084302001332845289}
+  m_PrefabAsset: {fileID: 0}
